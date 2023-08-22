@@ -1,0 +1,44 @@
+body {
+    background: rgb(51, 47, 47);
+}
+#mainbody {
+    margin-left: 45%;
+    margin-top: 10%;
+    background: rgb(97, 97, 146);
+    width: 250px;
+    height:350px;
+    border: solid 3px;
+    border-color: aquamarine;
+    border-radius: 5px;
+}
+
+#screen {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80%;
+    height:  40px;
+    border: solid 2px;
+    border-color: rgb(25, 39, 34);
+}
+
+.but {
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+button
+ {
+    font-weight: 600;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: all 0.2s;
+ }
+ button:hover {
+    transform: scale(1.1);
+ }
